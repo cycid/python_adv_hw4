@@ -13,7 +13,7 @@ class Iteration:
         self.current=self.start
         return self
 
-#in case when user try to use next method, but the range limit is over, he get none value
+#in case when user try to use next method when the range limit is over, he get none value
 
     def __next__(self):
         if self.current<self.finish:
