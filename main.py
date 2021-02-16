@@ -12,9 +12,9 @@ class Iteration:
     def __iter__(self):
         self.current=self.start
         return self
-"""
-in case when user try to use next method, but the range limit is over, he get none value
-"""
+
+#in case when user try to use next method, but the range limit is over, he get none value
+
     def __next__(self):
         if self.current<self.finish:
             value=self.current
@@ -23,7 +23,7 @@ in case when user try to use next method, but the range limit is over, he get no
         else:
             pass
 
-a=Iteration(4,9,2)
+a=Iteration(2,2,2)
 i=iter(a)
 print(next(a))
 print(next(a))
