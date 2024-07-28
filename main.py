@@ -1,5 +1,5 @@
 """
-Реализовать класс - аналог Range
+Implement a class similar to Range
 """
 
 
